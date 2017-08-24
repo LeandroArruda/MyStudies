@@ -19,6 +19,10 @@ import { RouterModule }   from '@angular/router';
         pathMatch: 'full'
       },
       {
+        path: 'detail/:id',
+        component: HeroDetailComponent
+      },
+      {
         path: 'dashboard',
         component: DashboardComponent
       },
